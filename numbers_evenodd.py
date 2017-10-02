@@ -1,6 +1,6 @@
 import sys
 
-def get_odd_list():
+def get_evenodd_list():
 	odd_lst = []
 	even_lst = []
 	for x in sys.stdin:
