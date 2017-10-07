@@ -1,7 +1,7 @@
 from sys import argv
 
-argv_one = argv[1] # students
-argv_two = argv[2] # delinquents
+argv_one = argv[1] # file one - order is irrelevant
+argv_two = argv[2] # file two
 
 with open(argv_one) as one, open(argv_two) as two:              	# open both text files
 	one, two = one.read().splitlines(), two.read().splitlines()	# create two lists
