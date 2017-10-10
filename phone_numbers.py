@@ -1,3 +1,4 @@
+print("Enter a name and number, or a name and ? to query (!! to exit)")
 line = input()
 if line == "!!":
 	print("Bye")					# output "Bye" before termination
